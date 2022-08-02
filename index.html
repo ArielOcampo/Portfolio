@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Proza+Libre:wght@400;500;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/app.css">
   <title>Portfolio Ariel Ocampo</title>
@@ -22,36 +22,66 @@
       <ul class="ul">
         <li class="li"><a href="#inicio" title="Inicio" class="a">Inicio</a></li>
         <li class="li"><a href="#works" title="Works" class="a">Works</a></li>
-        <li class="li"><a href="#contact" title="Contact" class="a">Contacto</a></li>
+        <li class="li"><a href="#about" title="Contact" class="a">Contacto</a></li>
       </ul>
     </nav>
   </header>
   <main class="main">
     <div class="seccion" id="inicio">
-      <div class="circle-container">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+      <div class="circulos">
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+        <div class="circulo"></div>
+        <div class="circulo"></div>
       </div>
-      <section class="section">
+      <section class="section info">
         <h2 class="h2">Ariel Ocampo</h2>
         <h3 class="h3">MERN Full stack developer</h3>
+
+        <ul class="ul">
+          <li class="li"><a href="#" class="a" title="Github">Visitar mi Github</a></li>
+          <li class="li"><a href="#" class="a" title="Linkedin">Visitar mi Linkedin</a></li>
+        </ul>
       </section>
     </div>
-    <section class="seccion" id="works">
+    <section class="seccion works" id="works">
       <h2 class="h2">Works</h2>
       <p class="p">Aca estan mis trabajos realizdos en el bootcamp de MINDHUB</p>
       <div class="grid">
         <article class="article">
-          <a href="#" title="trabajo 1">
-            <img src="#" alt="imagen" class="img" loading="lazy">
+          <a class="a" href="#" title="trabajo 1">
+            <figure class="figure">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+                alt="imagen" class="img" loading="lazy">
+            </figure>
             <h4 class="h4">Nombre del trabajo</h4>
           </a>
         </article>
+        <article class="article">
+          <a class="a" href="#" title="trabajo 1">
+            <figure class="figure">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png" alt="imagen"
+                class="img" loading="lazy">
+            </figure>
+            <h4 class="h4">Nombre del trabajo</h4>
+          </a>
+        </article>
+        <article class="article">
+          <a class="a" href="#" title="trabajo 1">
+            <figure class="figure">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png"
+                alt="imagen" class="img" loading="lazy">
+            </figure>
+            <h4 class="h4">Nombre del trabajo</h4>
+          </a>
+        </article>
+
+
       </div>
     </section>
-    <section class="seccion" id="about">
+    <section class="seccion about" id="about">
       <h2 class="h2">Sobre mi </h2>
       <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa quidem cum provident veritatis
         modi?</p>
@@ -61,7 +91,17 @@
         quod.</p>
       <ul class="rrss">
         <li class="li">
-          <a href="#" class="a" title="Nombre" target="_blank" rel="noopener noreferrer">
+          <a href="#" class="a" title="Twitter" target="_blank" rel="noopener noreferrer">
+            <svg class="svg"></svg>
+          </a>
+        </li>
+        <li class="li">
+          <a href="#" class="a" title="Github" target="_blank" rel="noopener noreferrer">
+            <svg class="svg"></svg>
+          </a>
+        </li>
+        <li class="li">
+          <a href="#" class="a" title="Linkedin" target="_blank" rel="noopener noreferrer">
             <svg class="svg"></svg>
           </a>
         </li>
