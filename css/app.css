@@ -3,7 +3,7 @@
   --blanco-2: rgba(255, 255, 255, .2);
   --negro: #181818;
   --negro-5: rgba(0, 0, 0, 0.5);
-  --negro-7: rgba(0, 0, 0, 0.75);
+  --negro-7: rgba(0, 0, 0, 0.5);
   --fucsia: #E91E63;
   --tipo-titular: 'Playfair Display', serif;
   --tipo-principal: 'Inter', sans-serif;
@@ -750,7 +750,7 @@ input.check-toggle-round-flat:checked+label:after {
 
 @media (max-width:500px) {
   input.check-toggle-round-flat+label {
-    width: 90px;
+    width: 98px;
   }
 
   .header .li {
@@ -843,6 +843,6 @@ input.check-toggle-round-flat:checked+label:after {
   }
 
   .switch {
-    margin: 1em 7.2em 0;
+    margin: 1em 7.5em 0;
   }
 }
