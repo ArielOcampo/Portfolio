@@ -670,6 +670,10 @@ input.check-toggle-round-flat:checked+label:after {
 }
 
 @media (max-width: 768px) {
+  #cursor {
+    display: none;
+
+  }
 
   .header {
     padding: 1em 0.5em;
